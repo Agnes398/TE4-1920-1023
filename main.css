@@ -17,3 +17,16 @@ h2, h3 {
     padding: 20px;
     background-color: rgba(217, 74, 207, 0.8);
 }
+
+@media screen and (max-width: 800px) {
+    body {
+        /*margin: 0px;*/
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    body {
+        width: 90%;
+    }
+}
