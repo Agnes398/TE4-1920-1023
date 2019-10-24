@@ -1,0 +1,63 @@
+body {
+    background-image: url("https://www.sammobile.com/wp-content/uploads/2019/03/keyguard_default_wallpaper.png");
+    background-position: center;
+    background-size: cover; 
+    width: 70%;
+    margin: 0% auto;
+    font-size: 16px;
+    font-family: verdana;
+}
+
+/* top navigation menu */
+
+#menu {
+    background-color: rgba(217, 65, 207, 0.9);
+    list-style-type: none;
+    height: 47px;
+    overflow: hidden;
+    margin: 0%;
+    padding: 0;
+}
+
+#menu li {
+    float: left;
+}
+
+#menu li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: rgb(255, 228, 255);
+    font-weight: bold;
+}
+
+#menu li a:hover {
+    background-color: rgb(166, 27, 129);
+    transition-duration: 0.9s;
+}
+
+/* Förfinar body elementet */
+
+.headers {
+    margin: 40px 0px 0px;
+}
+
+#content h1 {
+    margin: 18px 0px 0px;
+}
+
+#content p {
+    margin: 10px 0px;
+}
+
+#content {
+    color: white;
+    padding: 20px;
+    margin: 0%;
+    background-color: rgba(217, 102, 209, 0.8);
+}
+
+#content ul li {
+    margin: 10px 0px;
+}
